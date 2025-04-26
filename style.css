@@ -1,0 +1,32 @@
+/* style.css */
+.header {
+    color: #FF4B4B;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.genre-tag {
+    display: inline-block;
+    background-color: #FF4B4B;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Dark mode support */
+[data-testid="stAppViewContainer"] {
+    background-color: white;
+}
+
+.st-emotion-cache-1v0mbdj {
+    border-radius: 10px;
+}
